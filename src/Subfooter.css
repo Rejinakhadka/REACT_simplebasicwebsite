@@ -1,0 +1,39 @@
+.left-content {
+    margin-left: 50px;
+    flex: 1;
+    color: grey;
+  }
+  
+  .subfooter {
+    display: flex;
+  }
+  
+  .right-content {
+    margin-right: 50px;
+    padding-top: 20px;
+  }
+  
+  .up-arrow {
+    margin-right: 50px;
+    padding-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .left-content {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .subfooter {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .right-content,
+    .up-arrow {
+      margin: 0;
+      padding: 10px;
+    }
+  }
+  

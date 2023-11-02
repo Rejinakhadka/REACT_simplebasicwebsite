@@ -1,0 +1,83 @@
+.Resources-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .header {
+    margin-bottom: 40px;
+  }
+  
+  .header p {
+    color: gray;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto; 
+  }
+  
+  .resources-card {
+    text-align: start;
+    border: #ccc;
+    border-radius: 20px;
+    justify-content: space-between;
+  }
+  
+  .resources-cards {
+    display: inline-flex;
+    gap: 50px;
+    max-width: 800px;
+  }
+  
+  .resources-cards p {
+    color: gray;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 60px;
+  }
+  
+  .resources-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .resources-card a {
+    text-decoration: none;
+    color: #0078d4;
+    font-weight: bold;
+  }
+  
+  .resources-card span {
+    margin-left: 5px;
+  }
+  
+  .resources-footer {
+    margin-top: 40px;
+  }
+  
+  .view-all-resources-button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border-color: #005ea2;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .view-all-resources-button:hover {
+    background-color: #005ea2;
+  }
+  
+
+  @media (max-width: 600px) {
+    .resources-cards {
+      display: block; 
+    }
+    .header p {
+        max-width: 90%; 
+      }
+  }
+  

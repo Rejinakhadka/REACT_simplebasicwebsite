@@ -1,0 +1,34 @@
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .logo-slide {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .logo-slide img {
+    max-width: 100px; 
+    max-height: 100px; 
+    display: block;
+  }
+  
+  @media (max-width: 600px) {
+    .logo-slide img {
+      max-width: 70px; 
+      max-height: 70px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .logo-slide img {
+      max-width: 50px; 
+      max-height: 50px;
+    }
+  }
+  
+  
